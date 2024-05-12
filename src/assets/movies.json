@@ -5,7 +5,8 @@
         "year": "2019",
         "img":"placeholder.jpg",
         "genre": "drama",
-        "description": "A first-time captain leads a convoy of allied ships carrying thousands of soldiers across the treacherous waters of the Black Pit to the front lines of WW2. With no air cover protection for 5 days"
+        "description": "A first-time captain leads a convoy of allied ships carrying thousands of soldiers across the treacherous waters of the Black Pit to the front lines of WW2. With no air cover protection for 5 days",
+        "rating": "7.1"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "year": "2020",
         "img":"placeholder.jpg",
         "genre": "action",
-        "description": "A covert team of immortal mercenaries are suddenly exposed and must now fight to keep their identity a secret just as an unexpected new member is discovered."
+        "description": "A covert team of immortal mercenaries are suddenly exposed and must now fight to keep their identity a secret just as an unexpected new member is discovered.",
+        "rating": "6.7"
     },
     {
         "id": 3,
@@ -21,7 +23,9 @@
         "year": "2020",
         "img":"placeholder.jpg",
         "genre": "action",
-        "description": "A small team of U.S. soldiers battle against hundreds of Taliban fighters in Afghanistan."
+        "description": "A small team of U.S. soldiers battle against hundreds of Taliban fighters in Afghanistan.",
+        "rating": "6.8"
+        
     },
     {
         "id": 4,
@@ -29,6 +33,7 @@
         "year": "2020",
         "img":"placeholder.jpg",
         "genre": "comedy",
-        "description": "Scott has been a case of arrested development since his firefighter dad died. He spends his days smoking weed and dreaming of being a tattoo artist until events force him to grapple with his grief and take his first steps forward in life."
+        "description": "Scott has been a case of arrested development since his firefighter dad died. He spends his days smoking weed and dreaming of being a tattoo artist until events force him to grapple with his grief and take his first steps forward in life.",
+        "rating": "7.1"
     }
 ]

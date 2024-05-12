@@ -7,6 +7,7 @@ import NavigationBar from './components/NavigationBar'
 import { Route, Router ,Routes} from 'react-router-dom'
 import NotFound from './components/NotFound'
 import SearchBar from './components/SearchBar'
+import MovieDetails from './components/MovieDetails'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,10 @@ function App() {
       <Routes>
         <Route path="/films" element={<Movies/>}/>
         <Route path="*" element={<NotFound/>}/>
+        <Route path="/films/:id" element={<MovieDetails />}/>
+    
+
+
         </Routes>
     </div>
   )

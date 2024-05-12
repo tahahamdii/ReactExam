@@ -1,6 +1,7 @@
 import Movies from "../assets/movies.json";
+import Rating from "./Rating";
 
-const Movie = ({title,year,img,genre,description}) => {
+const Movie = ({title,year,img,genre,description,rating}) => {
     return ( 
         <div className="movie">
             <img src={img} alt={title} />
@@ -9,6 +10,7 @@ const Movie = ({title,year,img,genre,description}) => {
             <p>Year :{year}</p>
             <p>Genre :{genre}</p>
             <p>Description :{description}</p>
+            <Rating ratings={rating} /> {/* Pass ratings as a prop */}
         </div>
      );
 }

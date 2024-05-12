@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Movie from "./Movie";
 import data from '../assets/movies.json';
 import SearchBar from './SearchBar';
+import { Link } from 'react-router-dom';
 
 const Movies = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -18,15 +19,16 @@ const Movies = () => {
     };
 
     return ( 
-        <div>
-            <SearchBar onSearch={handleSearch} />
-            <div className="movies" style={{ display: "flex" }}>
-                {filteredMovies.map((m) => (
-                    <div className="card" key={m.id} style={{ marginRight: "10px" }}>
-                        <Movie {...m}/>
-                    </div>
-                ))}
-            </div>
+        <div className="movies" style={{ display: "flex" }}>
+            {data.map((m) => (
+                <div className="card" key={m.id} style={{ marginRight: "10px" }}>
+                    {/* Wrap the movie title with Link */}
+                    <Link to={`/films/${m.id}`}>
+                        <h2>{m.title}</h2>
+                    </Link>
+                    <Movie {...m}/>
+                </div>
+            ))}
         </div>
     );
 }

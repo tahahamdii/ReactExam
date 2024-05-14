@@ -8,6 +8,7 @@ import { Route, Router ,Routes} from 'react-router-dom'
 import NotFound from './components/NotFound'
 import SearchBar from './components/SearchBar'
 import MovieDetails from './components/MovieDetails'
+import WishList from './components/WishList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         <Route path="/films" element={<Movies/>}/>
         <Route path="*" element={<NotFound/>}/>
         <Route path="/films/:id" element={<MovieDetails />}/>
+        <Route path='wishlist' element={<WishList/>}/>
     
 
 

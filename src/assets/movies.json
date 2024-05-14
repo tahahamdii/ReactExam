@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "title":"GreyHound",
         "year": "2019",
         "img":"placeholder.jpg",
@@ -9,7 +9,7 @@
         "rating": "7.1"
     },
     {
-        "id": 2,
+        "id": 1,
         "title":"The Old Guard",
         "year": "2020",
         "img":"placeholder.jpg",
@@ -18,7 +18,7 @@
         "rating": "6.7"
     },
     {
-        "id": 3,
+        "id": 2,
         "title":"The Outpost",
         "year": "2020",
         "img":"placeholder.jpg",
@@ -28,7 +28,7 @@
         
     },
     {
-        "id": 4,
+        "id": 3,
         "title":"The King of Staten Island",
         "year": "2020",
         "img":"placeholder.jpg",
